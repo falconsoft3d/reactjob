@@ -1,7 +1,7 @@
 @import "./index.scss";
 
-.main-blue {
-    color :$main-blue;
+.job-main-blue {
+    color :$job-main-blue;
 }
 
 .main-gray {
@@ -16,7 +16,7 @@
 }
 
 .button-primary {
-    background-color: $main-blue !important;
+    background-color: $job-main-blue !important;
     border-color: #31698C !important;
 
     &:hover {
@@ -25,12 +25,30 @@
     }
 }
 
+.button-primary-orange {
+    background-color: $main-orange !important;
+    border-color: $main-orange !important;
+    color: #fff !important;
+    &:hover {
+        background-color: $main-orange !important;
+        
+    }
+}
+
+.font-white {
+    color: #fff;
+}
+
 
 .button-primary-outline {
-    border-color: $main-blue !important;
-    color : $main-blue !important;
+    border-color: $job-main-blue !important;
+    color : $job-main-blue !important;
     &:hover {
         background-color: #31698C !important;
         color : #fff !important;
     }
+}
+
+.bg-job-main-blue {
+    background-color: $job-main-blue;
 }
