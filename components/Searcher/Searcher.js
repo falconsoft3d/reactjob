@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Searcher() {
     return (
-        <div className="container">
+        <>
+        <div className="container mt-4">
             <div className="bg-job-main-blue searcher">
                 <div className="row">
                     <div className="col-md-4">
@@ -19,5 +20,16 @@ export default function Searcher() {
                 </div>
             </div>    
         </div>
+        <div className="container mt-2">
+            <div className="row">
+                <div className="col-md-6 mt-4">  
+                    49,310 ofertas de trabajo encontradas
+                </div>
+                <div className="col-md-6 alert">
+                    <a className="btn btn-primary py-2 main-gray text-decoration-none m-2 button-primary">Crear Alerta</a>
+                </div>    
+            </div>
+        </div>
+        </>
     )
 }

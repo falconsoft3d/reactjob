@@ -6,7 +6,7 @@ export default function Navbar() {
             <div className="container border-bottom">
                 <div className="d-flex flex-column flex-md-row align-items-center pb-3 mt-2">
                 <a href="/" className="d-flex align-items-center text-dark text-decoration-none">
-                    <span className="fs-4 main-blue m-2">ReactJob</span>
+                    <span className="fs-4 job-main-blue m-2">ReactJob</span>
                     <a className="me-3 py-2 a-gray text-decoration-none m-2" href="#">Buscar Empleado</a>
                     <a className="me-3 py-2 a-gray text-decoration-none m-2" href="#"> Buscar Empresa</a>
                 </a>

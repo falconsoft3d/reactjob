@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar';
 export default function JobLayout(props) {
     const { children } = props;
     return (
-        <div>
+        <div className="bg-job">
             <Header/>
             <Navbar/>
             <main>
