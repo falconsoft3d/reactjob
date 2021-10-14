@@ -1,0 +1,24 @@
+.job-item{
+    background-color: #fff;
+    padding: 10px;
+    color: $main-font;
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        color: $main-font;
+        &:hover{
+            color: $main-font;
+            font-weight: bold;
+        }
+    }
+
+    
+
+}

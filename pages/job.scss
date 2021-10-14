@@ -1,0 +1,28 @@
+.job-det{
+
+    padding: 10px;
+    color: $main-font;
+    margin-top: 20px;
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        color: $main-font;
+        &:hover{
+            color: $main-font;
+            font-weight: bold;
+        }
+    }
+}
+
+.job-text {
+    background-color: $background-light;
+    margin-top: 20px;
+    min-height: 500px;
+}

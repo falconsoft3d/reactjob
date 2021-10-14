@@ -16,8 +16,8 @@ export default function Navbar() {
                     <a className="me-3 py-2 a-gray text-decoration-none m-2" href="#">Salarios</a>
                     <a className="me-3 py-2 a-gray text-decoration-none m-2" href="#">Formación</a>
 
-                    <a className="btn btn-outline-primary button-primary-outline  py-2 main-gray text-decoration-none m-2" href="#">Accesos a Empresas</a>
-                    <a className="btn btn-primary py-2 main-gray text-decoration-none m-2 button-primary" href="#">Accesos a Candidato</a>
+                    <a className="btn btn-outline-primary button-primary-outline  py-2 main-gray text-decoration-none m-2" href="#">Registrarse</a>
+                    <a className="btn btn-primary py-2 main-gray text-decoration-none m-2 button-primary" href="#">Entrar</a>
                 </nav>
                 </div>
             </div>

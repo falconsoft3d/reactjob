@@ -23,7 +23,7 @@ export default function Searcher() {
         <div className="container mt-2">
             <div className="row">
                 <div className="col-md-6 mt-4">  
-                    49,310 ofertas de trabajo encontradas
+                    0 ofertas de trabajo encontradas
                 </div>
                 <div className="col-md-6 alert">
                     <a className="btn btn-primary py-2 main-gray text-decoration-none m-2 button-primary">Crear Alerta</a>
