@@ -4,7 +4,8 @@ import JobItem from '../JobItem/JobItem';
 export default function JobList() {
     return (
         <div>
-            <JobItem></JobItem>
+            <JobItem/>
+            <JobItem/>
         </div>
     )
 }
